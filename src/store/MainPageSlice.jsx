@@ -4,7 +4,7 @@ export const getBooksList = createAsyncThunk(
     'getBooksList',
     async function (info,{dispatch}){
         try{
-            const response = await fetch('/data.json')
+            const response = await fetch('./data.json')
             const data = await response.json();
             dispatch(getList(data))
         }
