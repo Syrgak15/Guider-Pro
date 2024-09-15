@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Guider-Pro/static/css/main.7957ae91.css",
-    "main.js": "/Guider-Pro/static/js/main.d97bb261.js",
+    "main.js": "/Guider-Pro/static/js/main.726e990b.js",
     "static/media/noitem.svg": "/Guider-Pro/static/media/noitem.b1a9bb19e2bb16c077f85cdceffaec54.svg",
     "index.html": "/Guider-Pro/index.html",
     "main.7957ae91.css.map": "/Guider-Pro/static/css/main.7957ae91.css.map",
-    "main.d97bb261.js.map": "/Guider-Pro/static/js/main.d97bb261.js.map"
+    "main.726e990b.js.map": "/Guider-Pro/static/js/main.726e990b.js.map"
   },
   "entrypoints": [
     "static/css/main.7957ae91.css",
-    "static/js/main.d97bb261.js"
+    "static/js/main.726e990b.js"
   ]
 }
