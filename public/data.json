@@ -1,0 +1,42 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "date": "1925-04-10",
+    "price": 10.99,
+    "tags": ["classic", "novel", "American literature"],
+    "image": "https://tomboyforlife.blog/wp-content/uploads/2017/01/lukea.jpg"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "date": "1949-06-08",
+    "price": 8.99,
+    "tags": ["dystopian", "political fiction", "classic"],
+    "image": "https://tomboyforlife.blog/wp-content/uploads/2017/01/lukea.jpg"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "date": "1960-07-11",
+    "price": 12.99,
+    "tags": ["classic", "coming-of-age", "American literature"],
+    "image": "https://tomboyforlife.blog/wp-content/uploads/2017/01/lukea.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "date": "1951-07-16",
+    "price": 9.99,
+    "tags": ["classic", "novel", "coming-of-age"],
+    "image": "https://tomboyforlife.blog/wp-content/uploads/2017/01/lukea.jpg"
+  },
+  {
+  "title": "Fahrenheit 451",
+  "author": "Ray Bradbury",
+  "date": "1953-10-19",
+  "price": 11.50,
+  "tags": ["dystopian", "science fiction", "classic"],
+  "image": "https://tomboyforlife.blog/wp-content/uploads/2017/01/lukea.jpg"
+}
+]

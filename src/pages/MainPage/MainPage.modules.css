@@ -1,0 +1,143 @@
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #1d2a46;
+    border-radius: 15px;
+}
+.main-page-header{
+    font-size: 35px;
+    font-family: "Inconsolata";
+    color:beige;
+    margin-left: 55px;
+}
+.main-page__title{
+    font-size: 35px;
+    font-family: "Inconsolata";
+    color:beige;
+
+}
+.main-page-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.main-page-nav ul{
+    display: flex;
+    gap:50px;
+    padding: 0;
+    justify-content: center;
+}
+.main-page-nav li{
+    list-style-type: none;
+    opacity:0.5;
+    transition: 0.3s ease-in-out;
+}
+.main-page-nav li:hover{
+    opacity: 1;
+}
+.main-page-nav button{
+    border:none;
+    background: none;
+    color:beige;
+    font-size: 25px;
+    font-family: Ubuntu;
+}
+.total{
+    font-size: 35px;
+    color: beige;
+    font-family: "Inconsolata";
+    text-align: left;
+}
+.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.asc{
+    transform: rotate(180deg);
+}
+.arrow-author {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.main-page-nav__right{
+    position: relative;
+}
+.dropdown-menu {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+    position: absolute;
+    padding:10px;
+    top: 75%;
+    left:-25px;
+    background: #405D72;
+    border-radius: 25px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu .dropdown-menu__button {
+    background: white;
+    border: 1px solid grey;
+    color: black;
+    font-family: Inconsolata;
+    text-transform: capitalize;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    font-size: 15px;
+}
+
+.dropdown-menu button:hover {
+    opacity: 1;
+    background-color: #405D72;
+}
+
+.selected {
+    background-color: transparent !important;
+    color: white !important;
+    opacity: 1 !important;
+    border: 2px solid burlywood !important;
+    font-weight: bold !important;
+}
+.empty-items p{
+    font-size: 25px;
+    color: beige;
+    font-family: 'Inconsolata'
+}
+.empty-items img{
+    width: 150px;
+}
+@media (max-width: 770px) {
+    .main-page-nav ul {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .main-page-nav button{
+        font-size: 20px;
+    }
+    .main-page-header{
+        margin-left: 0px;
+    }
+
+    .total {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 937px) {
+    .main-page-nav ul {
+        gap: 15px;
+    }
+}
+@media (min-width:938px) and (max-width:1400px){
+
+}
+
